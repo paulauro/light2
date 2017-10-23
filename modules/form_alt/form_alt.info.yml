@@ -1,0 +1,5 @@
+name: Hook Form Alter 1
+description: 'Change node create page elements color.'
+type: module
+core: 8.x
+package: Custom

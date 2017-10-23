@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Change node create page elements color.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function form_alt_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  
+	if ($form_id == 'entity_embed_dialog') {
+
+       $form['#attached']['library'][] = 'form_alt/form_alt_lib';
+       unset($form['entity']);
+
+$form['attributes']['data-entity-embed-display']['#disabled']= TRUE;
+
+
+  }
+}

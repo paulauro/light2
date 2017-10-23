@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the bootstrapsub theme.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+function bootstrapsub_preprocess_html(&$variables) {
+  // Add information about the number of sidebars.
+ 
+
+
+}
