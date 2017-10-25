@@ -4,5 +4,7 @@
  */
 
 #edit-title-wrapper {
-
+    color: #red;
+    font-size: 20px;
+    background-color: green;
 }

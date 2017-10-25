@@ -1,0 +1,14 @@
+uuid: 80129af7-24c0-4c96-bd8e-c2abbc7f9695
+name: light2
+mail: pcpacino@yahoo.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

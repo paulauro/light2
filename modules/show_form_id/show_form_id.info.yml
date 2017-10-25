@@ -1,0 +1,5 @@
+name: show form id
+description: 'Show all varialbles on the page'
+type: module
+core: 8.x
+package: Custom

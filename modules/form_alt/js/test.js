@@ -7,31 +7,21 @@
   
     // This only works after ajax call.
     $(document).ajaxComplete(function() {
-        $(".ui-dialog-titlebar").css("background-color", "red");
+        $(".ui-dialog-titlebar").css("background-color", "yellow");
     });
 })(jQuery);
 
 // Change the node create page breadcrumb backgorund color. 
-(function ($, Drupal) {
+(function($) {
     $(document).ready(function() {
-        $(".ui-dialog-titlebar").css("background-color", "green");
+        $(".breadcrumb").css("background-color", "red");
     });
 })(jQuery, Drupal);
 
-
-
-(function ($, Drupal) {
-  
-    // This only works after ajax call.
-    $(document).ajaxComplete(function() {
-        //$(".form-item-attributes-data-entity-embed-display").hide();
-        $('button span:contains("Back")').parent().hide();
-
+// Change the node create page header background color. 
+(function($) {
+    $(document).ready(function() {
+        $(".region-header").css("background-color", "blue");
+        $(".region-header").css("color", "yellow");
     });
-})(jQuery);
-
-
-
-
-
-
+})(jQuery, Drupal);
